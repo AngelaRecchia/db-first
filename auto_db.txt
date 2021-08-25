@@ -1,0 +1,13 @@
+table name: Used_Cars;
+
+car_id: primary_key, bigInt, auto-increment;
+model: varchar(50), not null;
+year: year, not null;
+price: mediumInt, not null;
+mileage: int, not null;
+fuel_type: varchar(20), not null;
+transmission_type: varchar(20), not null;
+seats: tinyInt;
+doors: tinyInt;
+colour: varchar(20);
+previous_owners: tinyInt, default(1);
